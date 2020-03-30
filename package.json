@@ -1,0 +1,20 @@
+{
+  "name": "project_one",
+  "version": "1.0.0",
+  "description": "This is my first NodeJs project!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "author": "Kranthi Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.17"
+  }
+}
